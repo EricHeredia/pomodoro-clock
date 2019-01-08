@@ -33,8 +33,9 @@ class App extends Component {
       case 'session-decrement':
         this.lengthIncDec(e)
         break
+      case 'start':
+      case 'stop':
       case 'start_stop':
-        console.log('did click?!')
         this.timerControl()
         break
       case 'reset':
@@ -46,7 +47,7 @@ class App extends Component {
   }
 
   timerControl = () => {
-    let control = this.state.timerState === 'stopped' ? (
+    return this.state.timerState === 'stopped' ? (
       this.timerStart(),
       this.setState({timerState: 'running'})
     ) : (
@@ -55,10 +56,13 @@ class App extends Component {
     )
   }
 
-  timerStart = () => {
+  timerStart = (prevState) => {
     const accurateInterval = require('accurate-interval')
     this.setState({
       intervalID: accurateInterval(()=> {
+        if (this.state.curLength === 0 && this.state.curSeconds === 0) {
+          this.playBeep('play')
+        }
         this.decTime()
       }, 1000)
     })
@@ -134,6 +138,7 @@ class App extends Component {
 
   resetClock = () => {
     this.state.intervalID && this.state.intervalID.clear()
+    this.playBeep('stop')
     this.setState({
       sessionLength: 25,
       breakLength: 5,
@@ -143,6 +148,17 @@ class App extends Component {
       onBreak: false,
       curSeconds: 0
     })
+  }
+
+  playBeep = (action) => {
+    const beep = document.getElementById('beep')
+    if (action === 'play') {
+      beep.currentTime = 0
+      beep.play()
+    } else if (action === 'stop') {
+      beep.currentTime = 0
+      beep.pause()
+    }
   }
 
   render() {
@@ -184,6 +200,7 @@ class App extends Component {
 
         <Controller
           handleClickCB={this.handleClick}
+          timerControlCB={this.timerControl}
         />
         
       </div>

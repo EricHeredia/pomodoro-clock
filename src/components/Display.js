@@ -7,10 +7,6 @@ class Display extends Component {
     this.state = {}
   }
 
-  startCountdown = () => {
-    
-  }
-
   render() {
     let minDisplay = () => {
       return this.props.curLength < 10 ? (
@@ -37,15 +33,19 @@ class Display extends Component {
     return (
       <div id={this.props.id} className="display">
         
-        <p id={this.props.timerLabel}>{this.props.onBreak ? 'Break':'Session'}</p>
+        <p onClick={this.playBeep} id={this.props.timerLabel}>{this.props.onBreak ? 'Break':'Session'}</p>
         
         <p
           id={this.props.timeLeft}
-          style={minDisplay() === '01' ? warnStyle:null}
+          style={minDisplay() === '00' ? warnStyle:null}
         >
         {fullDisplay()}
         </p>
         
+        <audio id="beep" preload="auto"
+          src="https://goo.gl/65cBl1"
+        />
+
       </div>
     )
   }

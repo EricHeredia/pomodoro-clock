@@ -10,11 +10,16 @@ class Controller extends Component {
     return (
       <div className="controller">
 
-        <span id="start_stop" onClick={this.props.handleClickCB}>
-          <i className="fa fa-play"/>  
-          <i className="fa fa-pause"/>
-        </span>
+        <i
+          id="start_stop"
+          onClick={this.props.handleClickCB}
+          className="fa fa-play"
+        />
 
+        <i
+          className="fa fa-pause"
+          onClick={this.props.timerControlCB}
+        />
 
         <i
           id="reset"
