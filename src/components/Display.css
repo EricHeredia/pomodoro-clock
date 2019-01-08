@@ -1,0 +1,20 @@
+.display {
+  flex: 0 0 350px;
+  text-align: center;
+  height: 180px;
+  border: 15px solid black;
+  border-radius: 50px;
+}
+
+.display #timer-label {
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+.display #time-left {
+  position: relative;
+  font-size: 80px;
+  height: 0;
+  top: -80px;
+}

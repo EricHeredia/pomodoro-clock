@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://EricHeredia.github.io/pomodoro-clock",
   "dependencies": {
+    "accurate-interval": "^1.0.9",
     "gh-pages": "^2.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
