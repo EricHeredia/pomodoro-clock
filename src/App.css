@@ -2,8 +2,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: rgb(117, 18, 18);
   width: 600px;
+  background-color: rgba(0,0,0,.4);
+  border-radius: 10%;
+  color: rgb(223, 223, 223);
+  box-shadow: 0px 0px 60px 10px black;
 }
 
 .App h1 {
@@ -14,5 +17,8 @@
 }
 
 body {
-  background-image: url('./img/adventure.jpg')
+  background-image: url(img/calm.jpg);
+  background-size: 2600px 1733px;
+  background-repeat: no-repeat;
+  background-position: center;
 }

@@ -181,7 +181,7 @@ class App extends Component {
         <TimeSettings 
           id="break-settings"
           label="break-label"
-          text="break Length"
+          text="Break Length"
           decrement="break-decrement"
           length="break-length"
           increment="break-increment"

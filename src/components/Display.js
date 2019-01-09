@@ -27,7 +27,7 @@ class Display extends Component {
     }
 
     const warnStyle = {
-      color: 'red'
+      color: 'rgb(170, 0, 0)'
     }
 
     return (

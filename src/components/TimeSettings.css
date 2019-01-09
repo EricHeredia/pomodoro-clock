@@ -1,10 +1,11 @@
 .time-settings {
+  margin-top: -50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
   align-items: center;
-  flex: 0 0 50%;
+  flex: 0 0 45%;
 }
 
 .time-settings h2 {
@@ -29,6 +30,7 @@
   border: none;
   height: 25px;
   font-size: 30px;
+  color: rgb(223, 223, 223);
 }
 
 .time-settings button:active {
@@ -37,4 +39,8 @@
 
 .time-settings button:focus {
   outline: none;
+}
+
+.time-settings #session-label, #break-label {
+  font-size: 30px;
 }
