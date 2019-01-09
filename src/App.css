@@ -12,3 +12,7 @@
   font-size: 4em;
   margin-top: 0;
 }
+
+body {
+  background-image: url('./img/adventure.jpg')
+}
