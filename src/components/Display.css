@@ -1,10 +1,18 @@
+@font-face {
+  font-family: "Digital";
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot");
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff") format("woff"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7") format("svg");
+}
+
 .display {
   flex: 0 0 350px;
   text-align: center;
   height: 180px;
-  border: 8px solid rgba(0,0,0,.7);
-  box-shadow: 0px 0px 20px 2px black;
+  /*border: 8px solid rgba(0,0,0,.2);*/
+  box-shadow: inset 0px 0px 20px 2px black,
+              0px 0px 5px 2px black;
   border-radius: 50px;
+  background-color: rgba(0,0,0,.3); 
 }
 
 .display #timer-label {
@@ -18,4 +26,5 @@
   font-size: 80px;
   height: 0;
   top: -80px;
+  font-family: 'Digital';
 }
