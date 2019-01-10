@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  text-shadow: 0 0 10px red, 0 0 15px blue, 0 0 20px black;
 }
 
 #root {
