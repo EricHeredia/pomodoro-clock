@@ -8,9 +8,7 @@
   flex: 0 0 350px;
   text-align: center;
   height: 180px;
-  /*border: 8px solid rgba(0,0,0,.2);*/
-  box-shadow: inset 0px 0px 20px 2px black,
-              0px 0px 5px 2px black;
+  box-shadow: 0 0 10px 0 black, inset 0 0 20px 2px black;
   border-radius: 50px;
   background-color: rgba(0,0,0,.3); 
 }

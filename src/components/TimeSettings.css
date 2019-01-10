@@ -44,3 +44,9 @@
 .time-settings #session-label, #break-label {
   font-size: 30px;
 }
+
+@media screen and (max-width: 400px) {
+  .time-settings #session-label, #break-label {
+    padding-bottom: 15px;
+  }
+}
