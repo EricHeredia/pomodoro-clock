@@ -12,7 +12,7 @@ body {
   transform: translateY(60%);
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   #root {
     transform: translateY(15%);
   }
