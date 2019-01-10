@@ -49,4 +49,7 @@
   .time-settings #session-label, #break-label {
     padding-bottom: 15px;
   }
+  .time-settings #break-label {
+    width: 180px;
+  }
 }
