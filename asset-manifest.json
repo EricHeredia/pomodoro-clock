@@ -1,14 +1,14 @@
 {
-  "main.css": "/pomodoro-clock/static/css/main.ac27f94b.chunk.css",
-  "main.js": "/pomodoro-clock/static/js/main.f17b12bb.chunk.js",
-  "main.js.map": "/pomodoro-clock/static/js/main.f17b12bb.chunk.js.map",
-  "static/js/1.15066001.chunk.js": "/pomodoro-clock/static/js/1.15066001.chunk.js",
-  "static/js/1.15066001.chunk.js.map": "/pomodoro-clock/static/js/1.15066001.chunk.js.map",
+  "main.css": "/pomodoro-clock/static/css/main.ab3e947d.chunk.css",
+  "main.js": "/pomodoro-clock/static/js/main.0e376167.chunk.js",
+  "main.js.map": "/pomodoro-clock/static/js/main.0e376167.chunk.js.map",
+  "static/js/1.8f51e7da.chunk.js": "/pomodoro-clock/static/js/1.8f51e7da.chunk.js",
+  "static/js/1.8f51e7da.chunk.js.map": "/pomodoro-clock/static/js/1.8f51e7da.chunk.js.map",
   "runtime~main.js": "/pomodoro-clock/static/js/runtime~main.f41d346c.js",
   "runtime~main.js.map": "/pomodoro-clock/static/js/runtime~main.f41d346c.js.map",
   "static/media/App.css": "/pomodoro-clock/static/media/calm.c0682b14.jpg",
-  "static/css/main.ac27f94b.chunk.css.map": "/pomodoro-clock/static/css/main.ac27f94b.chunk.css.map",
+  "static/css/main.ab3e947d.chunk.css.map": "/pomodoro-clock/static/css/main.ab3e947d.chunk.css.map",
   "index.html": "/pomodoro-clock/index.html",
-  "precache-manifest.4645cfd3d316c04308c89bf1206c527a.js": "/pomodoro-clock/precache-manifest.4645cfd3d316c04308c89bf1206c527a.js",
+  "precache-manifest.04c9c1d02e4927da7451761cce34938e.js": "/pomodoro-clock/precache-manifest.04c9c1d02e4927da7451761cce34938e.js",
   "service-worker.js": "/pomodoro-clock/service-worker.js"
 }
